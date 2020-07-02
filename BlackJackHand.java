@@ -79,4 +79,6 @@ public class BlackJackHand extends Hand{
 	private static boolean isFaceCard(Card c) {
 		return c.value() >= 11 && c.value() <= 13;
 	}
+	
+	
 }

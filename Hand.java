@@ -24,4 +24,12 @@ public class Hand {
 	public int size() {
 		return cards.size();
 	}
+	
+	public void print() {
+		String s = "";
+		for (Card c : cards) {
+			s += " (Value: " + c.value() + ", Suit: "+ c.suit() + ") ";
+		}
+		System.out.println(s);
+	}
 }
